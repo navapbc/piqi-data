@@ -1,0 +1,594 @@
+{
+  "formatID": "FHIR JSON",
+  "messageID": "2a96a598-5bd8-66e5-a79c-8489beaa8f1d",
+  "patient": {
+    "demographics": {
+      "patientIdentifier": "2a96a598-5bd8-66e5-a79c-8489beaa8f1d",
+      "birthSex": {
+        "codings": [
+          {
+            "system": "http://hl7.org/fhir/us/core/CodeSystem/birthsex",
+            "code": "M",
+            "display": "Male"
+          }
+        ],
+        "text": "Male"
+      },
+      "birthDate": "2020-09-29",
+      "ethnicity": {
+        "codings": [
+          {
+            "system": "urn:oid:2.16.840.1.113883.6.238",
+            "code": "2186-5",
+            "display": "Not Hispanic or Latino"
+          }
+        ],
+        "text": "Not Hispanic or Latino"
+      },
+      "maritalStatus": {
+        "codings": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+            "display": "Never Married"
+          }
+        ],
+        "text": "Never Married"
+      },
+      "primaryLanguage": {
+        "codings": [
+          {
+            "system": "urn:ietf:bcp:47",
+            "display": "English (United States)"
+          }
+        ],
+        "text": "English (United States)"
+      },
+      "race": {
+        "codings": [
+          {
+            "system": "urn:oid:2.16.840.1.113883.6.238",
+            "code": "2106-3",
+            "display": "White"
+          }
+        ],
+        "text": "White"
+      }
+    },
+    "conditions": [
+      {
+        "conditionType": "Encounter Diagnosis",
+        "conditionStatus": {
+          "codings": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+            }
+          ]
+        },
+        "condition": {
+          "codings": [
+            {
+              "system": "http://snomed.info/sct",
+              "display": "Medication review due (situation)"
+            }
+          ],
+          "text": "Medication review due (situation)"
+        },
+        "effectiveDate": "2025-09-09T06:02:18-07:00",
+        "onsetDate": "2025-09-09T06:02:18-07:00",
+        "resolutionDate": "2025-09-09T06:02:18-07:00"
+      }
+    ],
+    "immunizations": [
+      {
+        "administrationDate": "2025-09-09T06:02:18-07:00",
+        "immunization": {
+          "codings": [
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "display": "varicella"
+            }
+          ],
+          "text": "varicella"
+        },
+        "immunizationStatus": {
+          "codings": [
+            {
+              "system": "http://hl7.org/fhir/event-status",
+              "code": "completed",
+              "display": "completed"
+            }
+          ],
+          "text": "completed"
+        }
+      },
+      {
+        "administrationDate": "2025-09-09T06:02:18-07:00",
+        "immunization": {
+          "codings": [
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "display": "IPV"
+            }
+          ],
+          "text": "IPV"
+        },
+        "immunizationStatus": {
+          "codings": [
+            {
+              "system": "http://hl7.org/fhir/event-status",
+              "code": "completed",
+              "display": "completed"
+            }
+          ],
+          "text": "completed"
+        }
+      },
+      {
+        "administrationDate": "2025-09-09T06:02:18-07:00",
+        "immunization": {
+          "codings": [
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "display": "Influenza, seasonal, injectable, preservative free"
+            }
+          ],
+          "text": "Influenza, seasonal, injectable, preservative free"
+        },
+        "immunizationStatus": {
+          "codings": [
+            {
+              "system": "http://hl7.org/fhir/event-status",
+              "code": "completed",
+              "display": "completed"
+            }
+          ],
+          "text": "completed"
+        }
+      },
+      {
+        "administrationDate": "2025-09-09T06:02:18-07:00",
+        "immunization": {
+          "codings": [
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "display": "DTaP"
+            }
+          ],
+          "text": "DTaP"
+        },
+        "immunizationStatus": {
+          "codings": [
+            {
+              "system": "http://hl7.org/fhir/event-status",
+              "code": "completed",
+              "display": "completed"
+            }
+          ],
+          "text": "completed"
+        }
+      },
+      {
+        "administrationDate": "2025-09-09T06:02:18-07:00",
+        "immunization": {
+          "codings": [
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "display": "MMR"
+            }
+          ],
+          "text": "MMR"
+        },
+        "immunizationStatus": {
+          "codings": [
+            {
+              "system": "http://hl7.org/fhir/event-status",
+              "code": "completed",
+              "display": "completed"
+            }
+          ],
+          "text": "completed"
+        }
+      }
+    ],
+    "diagnosticImaging": [
+      {
+        "procedure": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "History and physical note"
+            },
+            {
+              "system": "http://loinc.org",
+              "display": "Evaluation + Plan note"
+            }
+          ]
+        },
+        "hasAttachment": "true",
+        "test": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "History and physical note"
+            },
+            {
+              "system": "http://loinc.org",
+              "display": "Evaluation + Plan note"
+            }
+          ]
+        },
+        "reportDateTime": "2025-09-09T06:02:18-07:00",
+        "effectiveDate": "2025-09-09T06:02:18-07:00",
+        "issued": "2025-09-09T06:02:18.142-07:00"
+      }
+    ],
+    "vitalSigns": [
+      {
+        "vitalsign": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "Body Height"
+            }
+          ],
+          "text": "Body Height"
+        },
+        "performedDateTime": "2025-09-09T06:02:18-07:00",
+        "resultStatus": "final",
+        "resultValue": {
+          "type": {
+            "text": "PQ"
+          },
+          "text": "102.4"
+        },
+        "resultUnit": {
+          "codings": [
+            {
+              "system": "http://unitsofmeasure.org",
+              "code": "cm",
+              "display": "cm"
+            }
+          ],
+          "text": "cm"
+        }
+      },
+      {
+        "vitalsign": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+            }
+          ],
+          "text": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+        },
+        "performedDateTime": "2025-09-09T06:02:18-07:00",
+        "resultStatus": "final",
+        "resultValue": {
+          "type": {
+            "text": "PQ"
+          },
+          "text": "2"
+        },
+        "resultUnit": {
+          "codings": [
+            {
+              "system": "http://unitsofmeasure.org",
+              "code": "{score}",
+              "display": "{score}"
+            }
+          ],
+          "text": "{score}"
+        }
+      },
+      {
+        "vitalsign": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "Body Weight"
+            }
+          ],
+          "text": "Body Weight"
+        },
+        "performedDateTime": "2025-09-09T06:02:18-07:00",
+        "resultStatus": "final",
+        "resultValue": {
+          "type": {
+            "text": "PQ"
+          },
+          "text": "16.2"
+        },
+        "resultUnit": {
+          "codings": [
+            {
+              "system": "http://unitsofmeasure.org",
+              "code": "kg",
+              "display": "kg"
+            }
+          ],
+          "text": "kg"
+        }
+      },
+      {
+        "vitalsign": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "Body mass index (BMI) [Ratio]"
+            }
+          ],
+          "text": "Body mass index (BMI) [Ratio]"
+        },
+        "performedDateTime": "2025-09-09T06:02:18-07:00",
+        "resultStatus": "final",
+        "resultValue": {
+          "type": {
+            "text": "PQ"
+          },
+          "text": "15.45"
+        },
+        "resultUnit": {
+          "codings": [
+            {
+              "system": "http://unitsofmeasure.org",
+              "code": "kg/m2",
+              "display": "kg/m2"
+            }
+          ],
+          "text": "kg/m2"
+        }
+      },
+      {
+        "vitalsign": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "Body mass index (BMI) [Percentile] Per age and sex"
+            }
+          ],
+          "text": "Body mass index (BMI) [Percentile] Per age and sex"
+        },
+        "performedDateTime": "2025-09-09T06:02:18-07:00",
+        "resultStatus": "final",
+        "resultValue": {
+          "type": {
+            "text": "PQ"
+          },
+          "text": "50.81"
+        },
+        "resultUnit": {
+          "codings": [
+            {
+              "system": "http://unitsofmeasure.org",
+              "code": "%",
+              "display": "%"
+            }
+          ],
+          "text": "%"
+        }
+      },
+      {
+        "vitalsign": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "Diastolic Blood Pressure"
+            }
+          ],
+          "text": "Diastolic Blood Pressure"
+        },
+        "issuedDateTime": "2025-09-09T06:02:18.142-07:00",
+        "performedDateTime": "2025-09-09T06:02:18-07:00",
+        "resultStatus": "final",
+        "resultValue": {
+          "type": {
+            "text": "PQ"
+          },
+          "text": "80"
+        },
+        "resultUnit": {
+          "codings": [
+            {
+              "system": "http://unitsofmeasure.org",
+              "code": "mm[Hg]",
+              "display": "mm[Hg]"
+            }
+          ],
+          "text": "mm[Hg]"
+        }
+      },
+      {
+        "vitalsign": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "Systolic Blood Pressure"
+            }
+          ],
+          "text": "Systolic Blood Pressure"
+        },
+        "issuedDateTime": "2025-09-09T06:02:18.142-07:00",
+        "performedDateTime": "2025-09-09T06:02:18-07:00",
+        "resultStatus": "final",
+        "resultValue": {
+          "type": {
+            "text": "PQ"
+          },
+          "text": "125"
+        },
+        "resultUnit": {
+          "codings": [
+            {
+              "system": "http://unitsofmeasure.org",
+              "code": "mm[Hg]",
+              "display": "mm[Hg]"
+            }
+          ],
+          "text": "mm[Hg]"
+        }
+      },
+      {
+        "vitalsign": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "Heart rate"
+            }
+          ],
+          "text": "Heart rate"
+        },
+        "performedDateTime": "2025-09-09T06:02:18-07:00",
+        "resultStatus": "final",
+        "resultValue": {
+          "type": {
+            "text": "PQ"
+          },
+          "text": "66"
+        },
+        "resultUnit": {
+          "codings": [
+            {
+              "system": "http://unitsofmeasure.org",
+              "code": "/min",
+              "display": "/min"
+            }
+          ],
+          "text": "/min"
+        }
+      },
+      {
+        "vitalsign": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "Respiratory rate"
+            }
+          ],
+          "text": "Respiratory rate"
+        },
+        "performedDateTime": "2025-09-09T06:02:18-07:00",
+        "resultStatus": "final",
+        "resultValue": {
+          "type": {
+            "text": "PQ"
+          },
+          "text": "16"
+        },
+        "resultUnit": {
+          "codings": [
+            {
+              "system": "http://unitsofmeasure.org",
+              "code": "/min",
+              "display": "/min"
+            }
+          ],
+          "text": "/min"
+        }
+      }
+    ],
+    "healthAssessments": [
+      {
+        "assessment": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "Tobacco smoking status"
+            }
+          ],
+          "text": "Tobacco smoking status"
+        },
+        "issuedDateTime": "2025-09-09T06:02:18.142-07:00",
+        "effectiveDate": "2025-09-09T06:02:18-07:00",
+        "resultValue": {
+          "type": {
+            "text": "CE"
+          },
+          "codings": [
+            {
+              "system": "http://snomed.info/sct",
+              "display": "Never smoked tobacco (finding)"
+            }
+          ],
+          "text": "Never smoked tobacco (finding)"
+        }
+      }
+    ],
+    "procedures": [
+      {
+        "procedure": {
+          "codings": [
+            {
+              "system": "http://snomed.info/sct",
+              "display": "Medication reconciliation (procedure)"
+            }
+          ],
+          "text": "Medication reconciliation (procedure)"
+        },
+        "procedureDateTime": "2025-09-09T06:02:18-07:00",
+        "procedurePerformedDate": "2025-09-09T06:02:18-07:00",
+        "procedureStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/event-status",
+              "code": "completed",
+              "display": "Completed"
+            }
+          ],
+          "text": "Completed"
+        }
+      }
+    ],
+    "clinicalDocuments": [
+      {
+        "effectiveDate": "2025-09-09T06:02:18.142-07:00",
+        "hasAttachment": "true",
+        "documentStatus": {
+          "text": "current"
+        },
+        "documentType": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "History and physical note"
+            },
+            {
+              "system": "http://loinc.org",
+              "display": "Evaluation + Plan note"
+            }
+          ]
+        },
+        "category": [
+          {
+            "codings": [
+              {
+                "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+                "display": "Clinical Note"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "encounters": [
+      {
+        "encounterDateTime": "2025-09-09T06:02:18-07:00",
+        "encounterIdentifier": "2a96a598-5bd8-66e5-9ba3-5e24ebd8085f",
+        "encounterLocation": "GROVE HILL MEDICAL CENTER PC",
+        "encounterType": "Well child visit (procedure)",
+        "encounterStatus": "finished",
+        "encounterStartDatetime": "2025-09-09T06:02:18-07:00",
+        "encounterEndDatetime": "2025-09-09T06:17:18-07:00",
+        "encounterDiagnosis": {
+          "codings": [
+            {
+              "system": "http://snomed.info/sct",
+              "display": "Medication review due (situation)"
+            }
+          ],
+          "text": "Medication review due (situation)"
+        }
+      }
+    ]
+  }
+}

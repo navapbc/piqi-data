@@ -1,0 +1,2508 @@
+{
+  "formatID": "FHIR JSON",
+  "messageID": "0e1be516-8e96-fa8e-12e3-57fd75412262",
+  "patient": {
+    "demographics": {
+      "patientIdentifier": "0e1be516-8e96-fa8e-12e3-57fd75412262",
+      "birthSex": {
+        "codings": [
+          {
+            "system": "http://hl7.org/fhir/us/core/CodeSystem/birthsex",
+            "code": "M",
+            "display": "Male"
+          }
+        ],
+        "text": "Male"
+      },
+      "birthDate": "2005-02-14",
+      "ethnicity": {
+        "codings": [
+          {
+            "system": "urn:oid:2.16.840.1.113883.6.238",
+            "code": "2186-5",
+            "display": "Not Hispanic or Latino"
+          }
+        ],
+        "text": "Not Hispanic or Latino"
+      },
+      "maritalStatus": {
+        "codings": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+            "display": "Never Married"
+          }
+        ],
+        "text": "Never Married"
+      },
+      "primaryLanguage": {
+        "codings": [
+          {
+            "system": "urn:ietf:bcp:47",
+            "display": "English (United States)"
+          }
+        ],
+        "text": "English (United States)"
+      },
+      "race": {
+        "codings": [
+          {
+            "system": "urn:oid:2.16.840.1.113883.6.238",
+            "code": "2106-3",
+            "display": "White"
+          }
+        ],
+        "text": "White"
+      }
+    },
+    "conditions": [
+      {
+        "conditionType": "Encounter Diagnosis",
+        "conditionStatus": {
+          "codings": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+            }
+          ]
+        },
+        "condition": {
+          "codings": [
+            {
+              "system": "http://snomed.info/sct",
+              "display": "Medication review due (situation)"
+            }
+          ],
+          "text": "Medication review due (situation)"
+        },
+        "effectiveDate": "2021-03-29T17:47:54-07:00",
+        "onsetDate": "2021-03-29T17:47:54-07:00",
+        "resolutionDate": "2025-05-26T17:47:54-07:00"
+      },
+      {
+        "conditionType": "Encounter Diagnosis",
+        "conditionStatus": {
+          "codings": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+            }
+          ]
+        },
+        "condition": {
+          "codings": [
+            {
+              "system": "http://snomed.info/sct",
+              "display": "Housing unsatisfactory (finding)"
+            }
+          ],
+          "text": "Housing unsatisfactory (finding)"
+        },
+        "effectiveDate": "2023-04-10T18:30:50-07:00",
+        "onsetDate": "2023-04-10T18:30:50-07:00"
+      },
+      {
+        "conditionType": "Encounter Diagnosis",
+        "conditionStatus": {
+          "codings": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+            }
+          ]
+        },
+        "condition": {
+          "codings": [
+            {
+              "system": "http://snomed.info/sct",
+              "display": "Received higher education (finding)"
+            }
+          ],
+          "text": "Received higher education (finding)"
+        },
+        "effectiveDate": "2023-04-10T18:30:50-07:00",
+        "onsetDate": "2023-04-10T18:30:50-07:00"
+      },
+      {
+        "conditionType": "Encounter Diagnosis",
+        "conditionStatus": {
+          "codings": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+            }
+          ]
+        },
+        "condition": {
+          "codings": [
+            {
+              "system": "http://snomed.info/sct",
+              "display": "Not in labor force (finding)"
+            }
+          ],
+          "text": "Not in labor force (finding)"
+        },
+        "effectiveDate": "2023-04-10T18:30:50-07:00",
+        "onsetDate": "2023-04-10T18:30:50-07:00",
+        "resolutionDate": "2025-05-26T18:46:59-07:00"
+      },
+      {
+        "conditionType": "Encounter Diagnosis",
+        "conditionStatus": {
+          "codings": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+            }
+          ]
+        },
+        "condition": {
+          "codings": [
+            {
+              "system": "http://snomed.info/sct",
+              "display": "Limited social contact (finding)"
+            }
+          ],
+          "text": "Limited social contact (finding)"
+        },
+        "effectiveDate": "2024-04-15T18:29:51-07:00",
+        "onsetDate": "2024-04-15T18:29:51-07:00"
+      },
+      {
+        "conditionType": "Encounter Diagnosis",
+        "conditionStatus": {
+          "codings": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+            }
+          ]
+        },
+        "condition": {
+          "codings": [
+            {
+              "system": "http://snomed.info/sct",
+              "display": "Stress (finding)"
+            }
+          ],
+          "text": "Stress (finding)"
+        },
+        "effectiveDate": "2024-04-15T18:29:51-07:00",
+        "onsetDate": "2024-04-15T18:29:51-07:00",
+        "resolutionDate": "2025-05-26T18:46:59-07:00"
+      },
+      {
+        "conditionType": "Encounter Diagnosis",
+        "conditionStatus": {
+          "codings": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+            }
+          ]
+        },
+        "condition": {
+          "codings": [
+            {
+              "system": "http://snomed.info/sct",
+              "display": "Acute bronchitis (disorder)"
+            }
+          ],
+          "text": "Acute bronchitis (disorder)"
+        },
+        "effectiveDate": "2025-05-14T19:47:54-07:00",
+        "onsetDate": "2025-05-14T19:47:54-07:00",
+        "resolutionDate": "2025-06-02T20:07:52-07:00"
+      },
+      {
+        "conditionType": "Encounter Diagnosis",
+        "conditionStatus": {
+          "codings": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+            }
+          ]
+        },
+        "condition": {
+          "codings": [
+            {
+              "system": "http://snomed.info/sct",
+              "display": "Full-time employment (finding)"
+            }
+          ],
+          "text": "Full-time employment (finding)"
+        },
+        "effectiveDate": "2025-05-26T18:46:59-07:00",
+        "onsetDate": "2025-05-26T18:46:59-07:00"
+      },
+      {
+        "conditionType": "Encounter Diagnosis",
+        "conditionStatus": {
+          "codings": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+            }
+          ]
+        },
+        "condition": {
+          "codings": [
+            {
+              "system": "http://snomed.info/sct",
+              "display": "Gingivitis (disorder)"
+            }
+          ],
+          "text": "Gingivitis (disorder)"
+        },
+        "effectiveDate": "2025-05-26T19:21:36-07:00",
+        "onsetDate": "2025-05-26T19:21:36-07:00",
+        "resolutionDate": "2025-06-09T20:10:14-07:00"
+      },
+      {
+        "conditionType": "Encounter Diagnosis",
+        "conditionStatus": {
+          "codings": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+            }
+          ]
+        },
+        "condition": {
+          "codings": [
+            {
+              "system": "http://snomed.info/sct",
+              "display": "Medication review due (situation)"
+            }
+          ],
+          "text": "Medication review due (situation)"
+        },
+        "effectiveDate": "2025-06-02T17:47:54-07:00",
+        "onsetDate": "2025-06-02T17:47:54-07:00"
+      },
+      {
+        "conditionType": "Encounter Diagnosis",
+        "conditionStatus": {
+          "codings": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+            }
+          ]
+        },
+        "condition": {
+          "codings": [
+            {
+              "system": "http://snomed.info/sct",
+              "display": "Injury of neck (disorder)"
+            }
+          ],
+          "text": "Injury of neck (disorder)"
+        },
+        "effectiveDate": "2025-08-14T18:33:34-07:00",
+        "onsetDate": "2025-08-14T18:33:34-07:00",
+        "resolutionDate": "2025-09-18T18:33:34-07:00"
+      },
+      {
+        "conditionType": "Encounter Diagnosis",
+        "conditionStatus": {
+          "codings": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+            }
+          ]
+        },
+        "condition": {
+          "codings": [
+            {
+              "system": "http://snomed.info/sct",
+              "display": "Whiplash injury to neck (disorder)"
+            }
+          ],
+          "text": "Whiplash injury to neck (disorder)"
+        },
+        "effectiveDate": "2025-08-14T18:33:34-07:00",
+        "onsetDate": "2025-08-14T18:33:34-07:00",
+        "resolutionDate": "2025-09-18T18:33:34-07:00"
+      }
+    ],
+    "immunizations": [
+      {
+        "administrationDate": "2025-05-26T17:47:54-07:00",
+        "immunization": {
+          "codings": [
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "display": "Influenza, seasonal, injectable, preservative free"
+            }
+          ],
+          "text": "Influenza, seasonal, injectable, preservative free"
+        },
+        "immunizationStatus": {
+          "codings": [
+            {
+              "system": "http://hl7.org/fhir/event-status",
+              "code": "completed",
+              "display": "completed"
+            }
+          ],
+          "text": "completed"
+        }
+      },
+      {
+        "administrationDate": "2025-05-26T17:47:54-07:00",
+        "immunization": {
+          "codings": [
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "display": "Hep B, adult"
+            }
+          ],
+          "text": "Hep B, adult"
+        },
+        "immunizationStatus": {
+          "codings": [
+            {
+              "system": "http://hl7.org/fhir/event-status",
+              "code": "completed",
+              "display": "completed"
+            }
+          ],
+          "text": "completed"
+        }
+      },
+      {
+        "administrationDate": "2025-06-02T17:47:54-07:00",
+        "immunization": {
+          "codings": [
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "display": "Hep B, adult"
+            }
+          ],
+          "text": "Hep B, adult"
+        },
+        "immunizationStatus": {
+          "codings": [
+            {
+              "system": "http://hl7.org/fhir/event-status",
+              "code": "completed",
+              "display": "completed"
+            }
+          ],
+          "text": "completed"
+        }
+      }
+    ],
+    "diagnosticImaging": [
+      {
+        "procedure": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "History and physical note"
+            },
+            {
+              "system": "http://loinc.org",
+              "display": "Evaluation + Plan note"
+            }
+          ]
+        },
+        "hasAttachment": "true",
+        "test": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "History and physical note"
+            },
+            {
+              "system": "http://loinc.org",
+              "display": "Evaluation + Plan note"
+            }
+          ]
+        },
+        "reportDateTime": "2021-03-29T17:47:54-07:00",
+        "effectiveDate": "2021-03-29T17:47:54-07:00",
+        "issued": "2021-03-29T17:47:54.726-07:00"
+      },
+      {
+        "procedure": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "History and physical note"
+            },
+            {
+              "system": "http://loinc.org",
+              "display": "Evaluation + Plan note"
+            }
+          ]
+        },
+        "hasAttachment": "true",
+        "test": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "History and physical note"
+            },
+            {
+              "system": "http://loinc.org",
+              "display": "Evaluation + Plan note"
+            }
+          ]
+        },
+        "reportDateTime": "2023-04-10T17:47:54-07:00",
+        "effectiveDate": "2023-04-10T17:47:54-07:00",
+        "issued": "2023-04-10T17:47:54.726-07:00"
+      },
+      {
+        "procedure": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "History and physical note"
+            },
+            {
+              "system": "http://loinc.org",
+              "display": "Evaluation + Plan note"
+            }
+          ]
+        },
+        "hasAttachment": "true",
+        "test": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "History and physical note"
+            },
+            {
+              "system": "http://loinc.org",
+              "display": "Evaluation + Plan note"
+            }
+          ]
+        },
+        "reportDateTime": "2024-04-15T17:47:54-07:00",
+        "effectiveDate": "2024-04-15T17:47:54-07:00",
+        "issued": "2024-04-15T17:47:54.726-07:00"
+      },
+      {
+        "procedure": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "History and physical note"
+            },
+            {
+              "system": "http://loinc.org",
+              "display": "Evaluation + Plan note"
+            }
+          ]
+        },
+        "hasAttachment": "true",
+        "test": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "History and physical note"
+            },
+            {
+              "system": "http://loinc.org",
+              "display": "Evaluation + Plan note"
+            }
+          ]
+        },
+        "reportDateTime": "2025-05-14T19:47:54-07:00",
+        "effectiveDate": "2025-05-14T19:47:54-07:00",
+        "issued": "2025-05-14T19:47:54.726-07:00"
+      },
+      {
+        "procedure": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "Patient Health Questionnaire 2 item (PHQ-2) [Reported]"
+            }
+          ],
+          "text": "Patient Health Questionnaire 2 item (PHQ-2) [Reported]"
+        },
+        "hasAttachment": "false",
+        "test": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "Patient Health Questionnaire 2 item (PHQ-2) [Reported]"
+            }
+          ],
+          "text": "Patient Health Questionnaire 2 item (PHQ-2) [Reported]"
+        },
+        "reportDateTime": "2025-05-26T19:21:36-07:00",
+        "effectiveDate": "2025-05-26T19:21:36-07:00",
+        "issued": "2025-05-26T19:21:36.726-07:00"
+      },
+      {
+        "procedure": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "History and physical note"
+            },
+            {
+              "system": "http://loinc.org",
+              "display": "Evaluation + Plan note"
+            }
+          ]
+        },
+        "hasAttachment": "true",
+        "test": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "History and physical note"
+            },
+            {
+              "system": "http://loinc.org",
+              "display": "Evaluation + Plan note"
+            }
+          ]
+        },
+        "reportDateTime": "2025-05-26T17:47:54-07:00",
+        "effectiveDate": "2025-05-26T17:47:54-07:00",
+        "issued": "2025-05-26T17:47:54.726-07:00"
+      },
+      {
+        "procedure": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "History and physical note"
+            },
+            {
+              "system": "http://loinc.org",
+              "display": "Evaluation + Plan note"
+            }
+          ]
+        },
+        "hasAttachment": "true",
+        "test": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "History and physical note"
+            },
+            {
+              "system": "http://loinc.org",
+              "display": "Evaluation + Plan note"
+            }
+          ]
+        },
+        "reportDateTime": "2025-06-02T17:47:54-07:00",
+        "effectiveDate": "2025-06-02T17:47:54-07:00",
+        "issued": "2025-06-02T17:47:54.726-07:00"
+      },
+      {
+        "procedure": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "History and physical note"
+            },
+            {
+              "system": "http://loinc.org",
+              "display": "Evaluation + Plan note"
+            }
+          ]
+        },
+        "hasAttachment": "true",
+        "test": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "History and physical note"
+            },
+            {
+              "system": "http://loinc.org",
+              "display": "Evaluation + Plan note"
+            }
+          ]
+        },
+        "reportDateTime": "2025-06-09T17:47:54-07:00",
+        "effectiveDate": "2025-06-09T17:47:54-07:00",
+        "issued": "2025-06-09T17:47:54.726-07:00"
+      },
+      {
+        "procedure": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "History and physical note"
+            },
+            {
+              "system": "http://loinc.org",
+              "display": "Evaluation + Plan note"
+            }
+          ]
+        },
+        "hasAttachment": "true",
+        "test": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "History and physical note"
+            },
+            {
+              "system": "http://loinc.org",
+              "display": "Evaluation + Plan note"
+            }
+          ]
+        },
+        "reportDateTime": "2025-08-14T18:33:34-07:00",
+        "effectiveDate": "2025-08-14T18:33:34-07:00",
+        "issued": "2025-08-14T18:33:34.726-07:00"
+      },
+      {
+        "procedure": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "History and physical note"
+            },
+            {
+              "system": "http://loinc.org",
+              "display": "Evaluation + Plan note"
+            }
+          ]
+        },
+        "hasAttachment": "true",
+        "test": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "History and physical note"
+            },
+            {
+              "system": "http://loinc.org",
+              "display": "Evaluation + Plan note"
+            }
+          ]
+        },
+        "reportDateTime": "2025-08-14T18:33:34-07:00",
+        "effectiveDate": "2025-08-14T18:33:34-07:00",
+        "issued": "2025-08-14T18:33:34.726-07:00"
+      }
+    ],
+    "medications": [
+      {
+        "medication": {
+          "codings": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "display": "Acetaminophen 325 MG Oral Tablet"
+            }
+          ],
+          "text": "Acetaminophen 325 MG Oral Tablet"
+        },
+        "startDate": "2025-05-14T20:07:52-07:00",
+        "statementDate": "2025-05-14T20:07:52-07:00"
+      },
+      {
+        "medication": {
+          "codings": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "display": "sodium fluoride 0.0272 MG/MG Oral Gel"
+            }
+          ],
+          "text": "sodium fluoride 0.0272 MG/MG Oral Gel"
+        },
+        "startDate": "2025-06-09T20:10:14-07:00",
+        "statementDate": "2025-06-09T20:10:14-07:00"
+      },
+      {
+        "medication": {
+          "codings": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "display": "Naproxen sodium 220 MG Oral Tablet"
+            }
+          ],
+          "text": "Naproxen sodium 220 MG Oral Tablet"
+        },
+        "startDate": "2025-08-14T18:33:34-07:00",
+        "instructions": "Take as needed.",
+        "statementDate": "2025-08-14T18:33:34-07:00"
+      },
+      {
+        "medication": {
+          "codings": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "display": "sodium fluoride 0.0272 MG/MG Oral Gel"
+            }
+          ],
+          "text": "sodium fluoride 0.0272 MG/MG Oral Gel"
+        },
+        "statementDate": "2025-06-09T20:10:14-07:00"
+      }
+    ],
+    "vitalSigns": [
+      {
+        "vitalsign": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "Body Height"
+            }
+          ],
+          "text": "Body Height"
+        },
+        "performedDateTime": "2025-05-26T17:47:54-07:00",
+        "resultStatus": "final",
+        "resultValue": {
+          "type": {
+            "text": "PQ"
+          },
+          "text": "169.1"
+        },
+        "resultUnit": {
+          "codings": [
+            {
+              "system": "http://unitsofmeasure.org",
+              "code": "cm",
+              "display": "cm"
+            }
+          ],
+          "text": "cm"
+        }
+      },
+      {
+        "vitalsign": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+            }
+          ],
+          "text": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+        },
+        "performedDateTime": "2025-05-26T17:47:54-07:00",
+        "resultStatus": "final",
+        "resultValue": {
+          "type": {
+            "text": "PQ"
+          },
+          "text": "2"
+        },
+        "resultUnit": {
+          "codings": [
+            {
+              "system": "http://unitsofmeasure.org",
+              "code": "{score}",
+              "display": "{score}"
+            }
+          ],
+          "text": "{score}"
+        }
+      },
+      {
+        "vitalsign": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "Body Weight"
+            }
+          ],
+          "text": "Body Weight"
+        },
+        "performedDateTime": "2025-05-26T17:47:54-07:00",
+        "resultStatus": "final",
+        "resultValue": {
+          "type": {
+            "text": "PQ"
+          },
+          "text": "79.3"
+        },
+        "resultUnit": {
+          "codings": [
+            {
+              "system": "http://unitsofmeasure.org",
+              "code": "kg",
+              "display": "kg"
+            }
+          ],
+          "text": "kg"
+        }
+      },
+      {
+        "vitalsign": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "Body mass index (BMI) [Ratio]"
+            }
+          ],
+          "text": "Body mass index (BMI) [Ratio]"
+        },
+        "performedDateTime": "2025-05-26T17:47:54-07:00",
+        "resultStatus": "final",
+        "resultValue": {
+          "type": {
+            "text": "PQ"
+          },
+          "text": "27.74"
+        },
+        "resultUnit": {
+          "codings": [
+            {
+              "system": "http://unitsofmeasure.org",
+              "code": "kg/m2",
+              "display": "kg/m2"
+            }
+          ],
+          "text": "kg/m2"
+        }
+      },
+      {
+        "vitalsign": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "Diastolic Blood Pressure"
+            }
+          ],
+          "text": "Diastolic Blood Pressure"
+        },
+        "issuedDateTime": "2025-05-26T17:47:54.726-07:00",
+        "performedDateTime": "2025-05-26T17:47:54-07:00",
+        "resultStatus": "final",
+        "resultValue": {
+          "type": {
+            "text": "PQ"
+          },
+          "text": "81"
+        },
+        "resultUnit": {
+          "codings": [
+            {
+              "system": "http://unitsofmeasure.org",
+              "code": "mm[Hg]",
+              "display": "mm[Hg]"
+            }
+          ],
+          "text": "mm[Hg]"
+        }
+      },
+      {
+        "vitalsign": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "Systolic Blood Pressure"
+            }
+          ],
+          "text": "Systolic Blood Pressure"
+        },
+        "issuedDateTime": "2025-05-26T17:47:54.726-07:00",
+        "performedDateTime": "2025-05-26T17:47:54-07:00",
+        "resultStatus": "final",
+        "resultValue": {
+          "type": {
+            "text": "PQ"
+          },
+          "text": "135"
+        },
+        "resultUnit": {
+          "codings": [
+            {
+              "system": "http://unitsofmeasure.org",
+              "code": "mm[Hg]",
+              "display": "mm[Hg]"
+            }
+          ],
+          "text": "mm[Hg]"
+        }
+      },
+      {
+        "vitalsign": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "Heart rate"
+            }
+          ],
+          "text": "Heart rate"
+        },
+        "performedDateTime": "2025-05-26T17:47:54-07:00",
+        "resultStatus": "final",
+        "resultValue": {
+          "type": {
+            "text": "PQ"
+          },
+          "text": "68"
+        },
+        "resultUnit": {
+          "codings": [
+            {
+              "system": "http://unitsofmeasure.org",
+              "code": "/min",
+              "display": "/min"
+            }
+          ],
+          "text": "/min"
+        }
+      },
+      {
+        "vitalsign": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "Respiratory rate"
+            }
+          ],
+          "text": "Respiratory rate"
+        },
+        "performedDateTime": "2025-05-26T17:47:54-07:00",
+        "resultStatus": "final",
+        "resultValue": {
+          "type": {
+            "text": "PQ"
+          },
+          "text": "13"
+        },
+        "resultUnit": {
+          "codings": [
+            {
+              "system": "http://unitsofmeasure.org",
+              "code": "/min",
+              "display": "/min"
+            }
+          ],
+          "text": "/min"
+        }
+      }
+    ],
+    "healthAssessments": [
+      {
+        "assessment": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "Tobacco smoking status"
+            }
+          ],
+          "text": "Tobacco smoking status"
+        },
+        "issuedDateTime": "2025-05-26T17:47:54.726-07:00",
+        "effectiveDate": "2025-05-26T17:47:54-07:00",
+        "resultValue": {
+          "type": {
+            "text": "CE"
+          },
+          "codings": [
+            {
+              "system": "http://snomed.info/sct",
+              "display": "Never smoked tobacco (finding)"
+            }
+          ],
+          "text": "Never smoked tobacco (finding)"
+        }
+      },
+      {
+        "assessment": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "Protocol for Responding to and Assessing Patients' Assets, Risks, and Experiences [PRAPARE]"
+            }
+          ],
+          "text": "Protocol for Responding to and Assessing Patients' Assets, Risks, and Experiences [PRAPARE]"
+        },
+        "issuedDateTime": "2025-05-26T18:46:59.726-07:00",
+        "effectiveDate": "2025-05-26T18:46:59-07:00"
+      },
+      {
+        "assessment": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "Within the last year, have you been afraid of your partner or ex-partner?"
+            }
+          ],
+          "text": "Within the last year, have you been afraid of your partner or ex-partner?"
+        },
+        "issuedDateTime": "2025-05-26T18:46:59.726-07:00",
+        "effectiveDate": "2025-05-26T18:46:59-07:00"
+      },
+      {
+        "assessment": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "Do you feel physically and emotionally safe where you currently live?"
+            }
+          ],
+          "text": "Do you feel physically and emotionally safe where you currently live?"
+        },
+        "issuedDateTime": "2025-05-26T18:46:59.726-07:00",
+        "effectiveDate": "2025-05-26T18:46:59-07:00"
+      },
+      {
+        "assessment": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "Are you a refugee?"
+            }
+          ],
+          "text": "Are you a refugee?"
+        },
+        "issuedDateTime": "2025-05-26T18:46:59.726-07:00",
+        "effectiveDate": "2025-05-26T18:46:59-07:00"
+      },
+      {
+        "assessment": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "In the past year, have you spent more than 2 nights in a row in a jail, prison, detention center, or juvenile correctional facility?"
+            }
+          ],
+          "text": "In the past year, have you spent more than 2 nights in a row in a jail, prison, detention center, or juvenile correctional facility?"
+        },
+        "issuedDateTime": "2025-05-26T18:46:59.726-07:00",
+        "effectiveDate": "2025-05-26T18:46:59-07:00"
+      },
+      {
+        "assessment": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "Stress level"
+            }
+          ],
+          "text": "Stress level"
+        },
+        "issuedDateTime": "2025-05-26T18:46:59.726-07:00",
+        "effectiveDate": "2025-05-26T18:46:59-07:00"
+      },
+      {
+        "assessment": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "How often do you see or talk to people that you care about and feel close to (For example: talking to friends on the phone, visiting friends or family, going to church or club meetings)?"
+            }
+          ],
+          "text": "How often do you see or talk to people that you care about and feel close to (For example: talking to friends on the phone, visiting friends or family, going to church or club meetings)?"
+        },
+        "issuedDateTime": "2025-05-26T18:46:59.726-07:00",
+        "effectiveDate": "2025-05-26T18:46:59-07:00"
+      },
+      {
+        "assessment": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "Has lack of transportation kept you from medical appointments, meetings, work, or from getting things needed for daily living"
+            }
+          ],
+          "text": "Has lack of transportation kept you from medical appointments, meetings, work, or from getting things needed for daily living"
+        },
+        "issuedDateTime": "2025-05-26T18:46:59.726-07:00",
+        "effectiveDate": "2025-05-26T18:46:59-07:00"
+      },
+      {
+        "assessment": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "In the past year, have you or any family members you live with been unable to get any of the following when it was really needed?"
+            }
+          ],
+          "text": "In the past year, have you or any family members you live with been unable to get any of the following when it was really needed?"
+        },
+        "issuedDateTime": "2025-05-26T18:46:59.726-07:00",
+        "effectiveDate": "2025-05-26T18:46:59-07:00"
+      },
+      {
+        "assessment": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "What was your best estimate of the total income of all family members from all sources, before taxes, in last year?"
+            }
+          ],
+          "text": "What was your best estimate of the total income of all family members from all sources, before taxes, in last year?"
+        },
+        "issuedDateTime": "2025-05-26T18:46:59.726-07:00",
+        "effectiveDate": "2025-05-26T18:46:59-07:00",
+        "resultValue": {
+          "type": {
+            "text": "PQ"
+          },
+          "text": "26913"
+        },
+        "resultUnit": {
+          "codings": [
+            {
+              "system": "http://unitsofmeasure.org",
+              "code": "/a",
+              "display": "/a"
+            }
+          ],
+          "text": "/a"
+        }
+      },
+      {
+        "assessment": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "Primary insurance"
+            }
+          ],
+          "text": "Primary insurance"
+        },
+        "issuedDateTime": "2025-05-26T18:46:59.726-07:00",
+        "effectiveDate": "2025-05-26T18:46:59-07:00"
+      },
+      {
+        "assessment": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "Employment status - current"
+            }
+          ],
+          "text": "Employment status - current"
+        },
+        "issuedDateTime": "2025-05-26T18:46:59.726-07:00",
+        "effectiveDate": "2025-05-26T18:46:59-07:00"
+      },
+      {
+        "assessment": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "Highest level of education"
+            }
+          ],
+          "text": "Highest level of education"
+        },
+        "issuedDateTime": "2025-05-26T18:46:59.726-07:00",
+        "effectiveDate": "2025-05-26T18:46:59-07:00"
+      },
+      {
+        "assessment": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "Address"
+            }
+          ],
+          "text": "Address"
+        },
+        "issuedDateTime": "2025-05-26T18:46:59.726-07:00",
+        "effectiveDate": "2025-05-26T18:46:59-07:00",
+        "resultValue": {
+          "type": {
+            "text": "ST"
+          },
+          "text": "420 Cummerata Lock Unit 44"
+        }
+      },
+      {
+        "assessment": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "Are you worried about losing your housing?"
+            }
+          ],
+          "text": "Are you worried about losing your housing?"
+        },
+        "issuedDateTime": "2025-05-26T18:46:59.726-07:00",
+        "effectiveDate": "2025-05-26T18:46:59-07:00"
+      },
+      {
+        "assessment": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "Housing status"
+            }
+          ],
+          "text": "Housing status"
+        },
+        "issuedDateTime": "2025-05-26T18:46:59.726-07:00",
+        "effectiveDate": "2025-05-26T18:46:59-07:00"
+      },
+      {
+        "assessment": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "How many people are living or staying at this address?"
+            }
+          ],
+          "text": "How many people are living or staying at this address?"
+        },
+        "issuedDateTime": "2025-05-26T18:46:59.726-07:00",
+        "effectiveDate": "2025-05-26T18:46:59-07:00",
+        "resultValue": {
+          "type": {
+            "text": "PQ"
+          },
+          "text": "4"
+        },
+        "resultUnit": {
+          "codings": [
+            {
+              "system": "http://unitsofmeasure.org",
+              "code": "{#}",
+              "display": "{#}"
+            }
+          ],
+          "text": "{#}"
+        }
+      },
+      {
+        "assessment": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "Preferred language"
+            }
+          ],
+          "text": "Preferred language"
+        },
+        "issuedDateTime": "2025-05-26T18:46:59.726-07:00",
+        "effectiveDate": "2025-05-26T18:46:59-07:00"
+      },
+      {
+        "assessment": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "Have you been discharged from the armed forces of the United States?"
+            }
+          ],
+          "text": "Have you been discharged from the armed forces of the United States?"
+        },
+        "issuedDateTime": "2025-05-26T18:46:59.726-07:00",
+        "effectiveDate": "2025-05-26T18:46:59-07:00"
+      },
+      {
+        "assessment": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "At any point in the past 2 years, has season or migrant farm work been your or your family's main source of income?"
+            }
+          ],
+          "text": "At any point in the past 2 years, has season or migrant farm work been your or your family's main source of income?"
+        },
+        "issuedDateTime": "2025-05-26T18:46:59.726-07:00",
+        "effectiveDate": "2025-05-26T18:46:59-07:00"
+      },
+      {
+        "assessment": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "Race"
+            }
+          ],
+          "text": "Race"
+        },
+        "issuedDateTime": "2025-05-26T18:46:59.726-07:00",
+        "effectiveDate": "2025-05-26T18:46:59-07:00"
+      },
+      {
+        "assessment": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "Do you consider yourself Hispanic/Latino?"
+            }
+          ],
+          "text": "Do you consider yourself Hispanic/Latino?"
+        },
+        "issuedDateTime": "2025-05-26T18:46:59.726-07:00",
+        "effectiveDate": "2025-05-26T18:46:59-07:00"
+      },
+      {
+        "assessment": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]"
+            }
+          ],
+          "text": "Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]"
+        },
+        "issuedDateTime": "2025-05-26T19:21:36.726-07:00",
+        "effectiveDate": "2025-05-26T19:21:36-07:00",
+        "resultValue": {
+          "type": {
+            "text": "PQ"
+          },
+          "text": "1"
+        },
+        "resultUnit": {
+          "codings": [
+            {
+              "system": "http://unitsofmeasure.org",
+              "code": "{score}",
+              "display": "{score}"
+            }
+          ],
+          "text": "{score}"
+        }
+      }
+    ],
+    "procedures": [
+      {
+        "procedure": {
+          "codings": [
+            {
+              "system": "http://snomed.info/sct",
+              "display": "Measurement of respiratory function (procedure)"
+            }
+          ],
+          "text": "Measurement of respiratory function (procedure)"
+        },
+        "procedureDateTime": "2025-05-14T19:47:54-07:00",
+        "procedurePerformedDate": "2025-05-14T19:47:54-07:00",
+        "procedureStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/event-status",
+              "code": "completed",
+              "display": "Completed"
+            }
+          ],
+          "text": "Completed"
+        }
+      },
+      {
+        "procedure": {
+          "codings": [
+            {
+              "system": "http://snomed.info/sct",
+              "display": "Medication reconciliation (procedure)"
+            }
+          ],
+          "text": "Medication reconciliation (procedure)"
+        },
+        "procedureDateTime": "2025-05-26T17:47:54-07:00",
+        "procedurePerformedDate": "2025-05-26T17:47:54-07:00",
+        "procedureStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/event-status",
+              "code": "completed",
+              "display": "Completed"
+            }
+          ],
+          "text": "Completed"
+        }
+      },
+      {
+        "procedure": {
+          "codings": [
+            {
+              "system": "http://snomed.info/sct",
+              "display": "Assessment of health and social care needs (procedure)"
+            }
+          ],
+          "text": "Assessment of health and social care needs (procedure)"
+        },
+        "procedureDateTime": "2025-05-26T17:47:54-07:00",
+        "procedurePerformedDate": "2025-05-26T17:47:54-07:00",
+        "procedureStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/event-status",
+              "code": "completed",
+              "display": "Completed"
+            }
+          ],
+          "text": "Completed"
+        }
+      },
+      {
+        "procedure": {
+          "codings": [
+            {
+              "system": "http://snomed.info/sct",
+              "display": "Depression screening (procedure)"
+            }
+          ],
+          "text": "Depression screening (procedure)"
+        },
+        "procedureDateTime": "2025-05-26T18:46:59-07:00",
+        "procedurePerformedDate": "2025-05-26T18:46:59-07:00",
+        "procedureStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/event-status",
+              "code": "completed",
+              "display": "Completed"
+            }
+          ],
+          "text": "Completed"
+        }
+      },
+      {
+        "procedure": {
+          "codings": [
+            {
+              "system": "http://snomed.info/sct",
+              "display": "Depression screening (procedure)"
+            }
+          ],
+          "text": "Depression screening (procedure)"
+        },
+        "procedureDateTime": "2025-05-26T18:58:23-07:00",
+        "procedurePerformedDate": "2025-05-26T18:58:23-07:00",
+        "procedureStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/event-status",
+              "code": "completed",
+              "display": "Completed"
+            }
+          ],
+          "text": "Completed"
+        }
+      },
+      {
+        "procedure": {
+          "codings": [
+            {
+              "system": "http://snomed.info/sct",
+              "display": "Patient referral for dental care (procedure)"
+            }
+          ],
+          "text": "Patient referral for dental care (procedure)"
+        },
+        "procedureDateTime": "2025-05-26T19:21:36-07:00",
+        "procedurePerformedDate": "2025-05-26T19:21:36-07:00",
+        "procedureStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/event-status",
+              "code": "completed",
+              "display": "Completed"
+            }
+          ],
+          "text": "Completed"
+        }
+      },
+      {
+        "procedure": {
+          "codings": [
+            {
+              "system": "http://snomed.info/sct",
+              "display": "Dental consultation and report (procedure)"
+            }
+          ],
+          "text": "Dental consultation and report (procedure)"
+        },
+        "procedureDateTime": "2025-06-09T17:47:54-07:00",
+        "procedurePerformedDate": "2025-06-09T17:47:54-07:00",
+        "procedureStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/event-status",
+              "code": "completed",
+              "display": "Completed"
+            }
+          ],
+          "text": "Completed"
+        }
+      },
+      {
+        "procedure": {
+          "codings": [
+            {
+              "system": "http://snomed.info/sct",
+              "display": "Dental care (regime/therapy)"
+            }
+          ],
+          "text": "Dental care (regime/therapy)"
+        },
+        "procedureDateTime": "2025-06-09T18:00:43-07:00",
+        "procedurePerformedDate": "2025-06-09T18:00:43-07:00",
+        "procedureStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/event-status",
+              "code": "completed",
+              "display": "Completed"
+            }
+          ],
+          "text": "Completed"
+        }
+      },
+      {
+        "procedure": {
+          "codings": [
+            {
+              "system": "http://snomed.info/sct",
+              "display": "Removal of supragingival plaque and calculus from all teeth using dental instrument (procedure)"
+            }
+          ],
+          "text": "Removal of supragingival plaque and calculus from all teeth using dental instrument (procedure)"
+        },
+        "procedureDateTime": "2025-06-09T18:30:50-07:00",
+        "procedurePerformedDate": "2025-06-09T18:30:50-07:00",
+        "procedureStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/event-status",
+              "code": "completed",
+              "display": "Completed"
+            }
+          ],
+          "text": "Completed"
+        }
+      },
+      {
+        "procedure": {
+          "codings": [
+            {
+              "system": "http://snomed.info/sct",
+              "display": "Removal of subgingival plaque and calculus from all teeth using dental instrument (procedure)"
+            }
+          ],
+          "text": "Removal of subgingival plaque and calculus from all teeth using dental instrument (procedure)"
+        },
+        "procedureDateTime": "2025-06-09T19:05:17-07:00",
+        "procedurePerformedDate": "2025-06-09T19:05:17-07:00",
+        "procedureStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/event-status",
+              "code": "completed",
+              "display": "Completed"
+            }
+          ],
+          "text": "Completed"
+        }
+      },
+      {
+        "procedure": {
+          "codings": [
+            {
+              "system": "http://snomed.info/sct",
+              "display": "Examination of gingivae (procedure)"
+            }
+          ],
+          "text": "Examination of gingivae (procedure)"
+        },
+        "procedureDateTime": "2025-06-09T19:34:17-07:00",
+        "procedurePerformedDate": "2025-06-09T19:34:17-07:00",
+        "procedureStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/event-status",
+              "code": "completed",
+              "display": "Completed"
+            }
+          ],
+          "text": "Completed"
+        }
+      },
+      {
+        "procedure": {
+          "codings": [
+            {
+              "system": "http://snomed.info/sct",
+              "display": "Dental fluoride treatment (procedure)"
+            }
+          ],
+          "text": "Dental fluoride treatment (procedure)"
+        },
+        "procedureDateTime": "2025-06-09T20:10:14-07:00",
+        "procedurePerformedDate": "2025-06-09T20:10:14-07:00",
+        "procedureStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/event-status",
+              "code": "completed",
+              "display": "Completed"
+            }
+          ],
+          "text": "Completed"
+        }
+      },
+      {
+        "procedure": {
+          "codings": [
+            {
+              "system": "http://snomed.info/sct",
+              "display": "Oral health education (procedure)"
+            }
+          ],
+          "text": "Oral health education (procedure)"
+        },
+        "procedureDateTime": "2025-06-09T20:37:44-07:00",
+        "procedurePerformedDate": "2025-06-09T20:37:44-07:00",
+        "procedureStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/event-status",
+              "code": "completed",
+              "display": "Completed"
+            }
+          ],
+          "text": "Completed"
+        }
+      },
+      {
+        "procedure": {
+          "codings": [
+            {
+              "system": "http://snomed.info/sct",
+              "display": "History AND physical examination (procedure)"
+            }
+          ],
+          "text": "History AND physical examination (procedure)"
+        },
+        "procedureDateTime": "2025-08-14T18:33:34-07:00",
+        "procedurePerformedDate": "2025-08-14T18:33:34-07:00",
+        "procedureStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/event-status",
+              "code": "completed",
+              "display": "Completed"
+            }
+          ],
+          "text": "Completed"
+        }
+      },
+      {
+        "procedure": {
+          "codings": [
+            {
+              "system": "http://snomed.info/sct",
+              "display": "Initial patient assessment (procedure)"
+            }
+          ],
+          "text": "Initial patient assessment (procedure)"
+        },
+        "procedureDateTime": "2025-08-14T18:33:34-07:00",
+        "procedurePerformedDate": "2025-08-14T18:33:34-07:00",
+        "procedureStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/event-status",
+              "code": "completed",
+              "display": "Completed"
+            }
+          ],
+          "text": "Completed"
+        }
+      },
+      {
+        "procedure": {
+          "codings": [
+            {
+              "system": "http://snomed.info/sct",
+              "display": "Development of individualized plan of care (procedure)"
+            }
+          ],
+          "text": "Development of individualized plan of care (procedure)"
+        },
+        "procedureDateTime": "2025-08-14T18:33:34-07:00",
+        "procedurePerformedDate": "2025-08-14T18:33:34-07:00",
+        "procedureStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/event-status",
+              "code": "completed",
+              "display": "Completed"
+            }
+          ],
+          "text": "Completed"
+        }
+      },
+      {
+        "procedure": {
+          "codings": [
+            {
+              "system": "http://snomed.info/sct",
+              "display": "Nursing care/supplementary surveillance (regime/therapy)"
+            }
+          ],
+          "text": "Nursing care/supplementary surveillance (regime/therapy)"
+        },
+        "procedureDateTime": "2025-08-14T18:33:34-07:00",
+        "procedurePerformedDate": "2025-08-14T18:33:34-07:00",
+        "procedureStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/event-status",
+              "code": "completed",
+              "display": "Completed"
+            }
+          ],
+          "text": "Completed"
+        }
+      },
+      {
+        "procedure": {
+          "codings": [
+            {
+              "system": "http://snomed.info/sct",
+              "display": "Nursing care/supplementary surveillance (regime/therapy)"
+            }
+          ],
+          "text": "Nursing care/supplementary surveillance (regime/therapy)"
+        },
+        "procedureDateTime": "2025-08-15T18:33:34-07:00",
+        "procedurePerformedDate": "2025-08-15T18:33:34-07:00",
+        "procedureStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/event-status",
+              "code": "completed",
+              "display": "Completed"
+            }
+          ],
+          "text": "Completed"
+        }
+      },
+      {
+        "procedure": {
+          "codings": [
+            {
+              "system": "http://snomed.info/sct",
+              "display": "Professional / ancillary services care (regime/therapy)"
+            }
+          ],
+          "text": "Professional / ancillary services care (regime/therapy)"
+        },
+        "procedureDateTime": "2025-08-15T18:33:34-07:00",
+        "procedurePerformedDate": "2025-08-15T18:33:34-07:00",
+        "procedureStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/event-status",
+              "code": "completed",
+              "display": "Completed"
+            }
+          ],
+          "text": "Completed"
+        }
+      },
+      {
+        "procedure": {
+          "codings": [
+            {
+              "system": "http://snomed.info/sct",
+              "display": "Nursing care/supplementary surveillance (regime/therapy)"
+            }
+          ],
+          "text": "Nursing care/supplementary surveillance (regime/therapy)"
+        },
+        "procedureDateTime": "2025-08-16T18:33:34-07:00",
+        "procedurePerformedDate": "2025-08-16T18:33:34-07:00",
+        "procedureStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/event-status",
+              "code": "completed",
+              "display": "Completed"
+            }
+          ],
+          "text": "Completed"
+        }
+      },
+      {
+        "procedure": {
+          "codings": [
+            {
+              "system": "http://snomed.info/sct",
+              "display": "Nursing care/supplementary surveillance (regime/therapy)"
+            }
+          ],
+          "text": "Nursing care/supplementary surveillance (regime/therapy)"
+        },
+        "procedureDateTime": "2025-08-17T18:33:34-07:00",
+        "procedurePerformedDate": "2025-08-17T18:33:34-07:00",
+        "procedureStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/event-status",
+              "code": "completed",
+              "display": "Completed"
+            }
+          ],
+          "text": "Completed"
+        }
+      },
+      {
+        "procedure": {
+          "codings": [
+            {
+              "system": "http://snomed.info/sct",
+              "display": "Professional / ancillary services care (regime/therapy)"
+            }
+          ],
+          "text": "Professional / ancillary services care (regime/therapy)"
+        },
+        "procedureDateTime": "2025-08-17T18:33:34-07:00",
+        "procedurePerformedDate": "2025-08-17T18:33:34-07:00",
+        "procedureStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/event-status",
+              "code": "completed",
+              "display": "Completed"
+            }
+          ],
+          "text": "Completed"
+        }
+      },
+      {
+        "procedure": {
+          "codings": [
+            {
+              "system": "http://snomed.info/sct",
+              "display": "Nursing care/supplementary surveillance (regime/therapy)"
+            }
+          ],
+          "text": "Nursing care/supplementary surveillance (regime/therapy)"
+        },
+        "procedureDateTime": "2025-08-18T18:33:34-07:00",
+        "procedurePerformedDate": "2025-08-18T18:33:34-07:00",
+        "procedureStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/event-status",
+              "code": "completed",
+              "display": "Completed"
+            }
+          ],
+          "text": "Completed"
+        }
+      },
+      {
+        "procedure": {
+          "codings": [
+            {
+              "system": "http://snomed.info/sct",
+              "display": "Physical therapy procedure (regime/therapy)"
+            }
+          ],
+          "text": "Physical therapy procedure (regime/therapy)"
+        },
+        "procedureDateTime": "2025-08-18T18:33:34-07:00",
+        "procedurePerformedDate": "2025-08-18T18:33:34-07:00",
+        "procedureStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/event-status",
+              "code": "completed",
+              "display": "Completed"
+            }
+          ],
+          "text": "Completed"
+        }
+      },
+      {
+        "procedure": {
+          "codings": [
+            {
+              "system": "http://snomed.info/sct",
+              "display": "Occupational therapy (regime/therapy)"
+            }
+          ],
+          "text": "Occupational therapy (regime/therapy)"
+        },
+        "procedureDateTime": "2025-08-18T18:33:34-07:00",
+        "procedurePerformedDate": "2025-08-18T18:33:34-07:00",
+        "procedureStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/event-status",
+              "code": "completed",
+              "display": "Completed"
+            }
+          ],
+          "text": "Completed"
+        }
+      },
+      {
+        "procedure": {
+          "codings": [
+            {
+              "system": "http://snomed.info/sct",
+              "display": "Nursing care/supplementary surveillance (regime/therapy)"
+            }
+          ],
+          "text": "Nursing care/supplementary surveillance (regime/therapy)"
+        },
+        "procedureDateTime": "2025-08-19T18:33:34-07:00",
+        "procedurePerformedDate": "2025-08-19T18:33:34-07:00",
+        "procedureStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/event-status",
+              "code": "completed",
+              "display": "Completed"
+            }
+          ],
+          "text": "Completed"
+        }
+      },
+      {
+        "procedure": {
+          "codings": [
+            {
+              "system": "http://snomed.info/sct",
+              "display": "Physical therapy procedure (regime/therapy)"
+            }
+          ],
+          "text": "Physical therapy procedure (regime/therapy)"
+        },
+        "procedureDateTime": "2025-08-19T18:33:34-07:00",
+        "procedurePerformedDate": "2025-08-19T18:33:34-07:00",
+        "procedureStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/event-status",
+              "code": "completed",
+              "display": "Completed"
+            }
+          ],
+          "text": "Completed"
+        }
+      },
+      {
+        "procedure": {
+          "codings": [
+            {
+              "system": "http://snomed.info/sct",
+              "display": "Nursing care/supplementary surveillance (regime/therapy)"
+            }
+          ],
+          "text": "Nursing care/supplementary surveillance (regime/therapy)"
+        },
+        "procedureDateTime": "2025-08-20T18:33:34-07:00",
+        "procedurePerformedDate": "2025-08-20T18:33:34-07:00",
+        "procedureStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/event-status",
+              "code": "completed",
+              "display": "Completed"
+            }
+          ],
+          "text": "Completed"
+        }
+      },
+      {
+        "procedure": {
+          "codings": [
+            {
+              "system": "http://snomed.info/sct",
+              "display": "Pre-discharge assessment (procedure)"
+            }
+          ],
+          "text": "Pre-discharge assessment (procedure)"
+        },
+        "procedureDateTime": "2025-08-21T18:33:34-07:00",
+        "procedurePerformedDate": "2025-08-21T18:33:34-07:00",
+        "procedureStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/event-status",
+              "code": "completed",
+              "display": "Completed"
+            }
+          ],
+          "text": "Completed"
+        }
+      },
+      {
+        "procedure": {
+          "codings": [
+            {
+              "system": "http://snomed.info/sct",
+              "display": "Discharge from hospital (procedure)"
+            }
+          ],
+          "text": "Discharge from hospital (procedure)"
+        },
+        "procedureDateTime": "2025-08-21T18:33:34-07:00",
+        "procedurePerformedDate": "2025-08-21T18:33:34-07:00",
+        "procedureStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/event-status",
+              "code": "completed",
+              "display": "Completed"
+            }
+          ],
+          "text": "Completed"
+        }
+      }
+    ],
+    "medicalDevices": [
+      {
+        "deviceID": "99828620115734",
+        "implantationDate": "2025-07-24T18:33:34-07:00",
+        "deviceStatus": {
+          "text": "Active"
+        },
+        "deviceType": {
+          "codings": [
+            {
+              "system": "http://snomed.info/sct",
+              "display": "Manual wheelchair (physical object)"
+            }
+          ],
+          "text": "Manual wheelchair (physical object)"
+        }
+      }
+    ],
+    "clinicalDocuments": [
+      {
+        "effectiveDate": "2021-03-29T17:47:54.726-07:00",
+        "hasAttachment": "true",
+        "documentStatus": {
+          "text": "superseded"
+        },
+        "documentType": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "History and physical note"
+            },
+            {
+              "system": "http://loinc.org",
+              "display": "Evaluation + Plan note"
+            }
+          ]
+        },
+        "category": [
+          {
+            "codings": [
+              {
+                "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+                "display": "Clinical Note"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "effectiveDate": "2023-04-10T17:47:54.726-07:00",
+        "hasAttachment": "true",
+        "documentStatus": {
+          "text": "superseded"
+        },
+        "documentType": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "History and physical note"
+            },
+            {
+              "system": "http://loinc.org",
+              "display": "Evaluation + Plan note"
+            }
+          ]
+        },
+        "category": [
+          {
+            "codings": [
+              {
+                "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+                "display": "Clinical Note"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "effectiveDate": "2024-04-15T17:47:54.726-07:00",
+        "hasAttachment": "true",
+        "documentStatus": {
+          "text": "superseded"
+        },
+        "documentType": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "History and physical note"
+            },
+            {
+              "system": "http://loinc.org",
+              "display": "Evaluation + Plan note"
+            }
+          ]
+        },
+        "category": [
+          {
+            "codings": [
+              {
+                "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+                "display": "Clinical Note"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "effectiveDate": "2025-05-14T19:47:54.726-07:00",
+        "hasAttachment": "true",
+        "documentStatus": {
+          "text": "superseded"
+        },
+        "documentType": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "History and physical note"
+            },
+            {
+              "system": "http://loinc.org",
+              "display": "Evaluation + Plan note"
+            }
+          ]
+        },
+        "category": [
+          {
+            "codings": [
+              {
+                "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+                "display": "Clinical Note"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "effectiveDate": "2025-05-26T17:47:54.726-07:00",
+        "hasAttachment": "true",
+        "documentStatus": {
+          "text": "superseded"
+        },
+        "documentType": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "History and physical note"
+            },
+            {
+              "system": "http://loinc.org",
+              "display": "Evaluation + Plan note"
+            }
+          ]
+        },
+        "category": [
+          {
+            "codings": [
+              {
+                "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+                "display": "Clinical Note"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "effectiveDate": "2025-06-02T17:47:54.726-07:00",
+        "hasAttachment": "true",
+        "documentStatus": {
+          "text": "superseded"
+        },
+        "documentType": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "History and physical note"
+            },
+            {
+              "system": "http://loinc.org",
+              "display": "Evaluation + Plan note"
+            }
+          ]
+        },
+        "category": [
+          {
+            "codings": [
+              {
+                "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+                "display": "Clinical Note"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "effectiveDate": "2025-06-09T17:47:54.726-07:00",
+        "hasAttachment": "true",
+        "documentStatus": {
+          "text": "superseded"
+        },
+        "documentType": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "History and physical note"
+            },
+            {
+              "system": "http://loinc.org",
+              "display": "Evaluation + Plan note"
+            }
+          ]
+        },
+        "category": [
+          {
+            "codings": [
+              {
+                "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+                "display": "Clinical Note"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "effectiveDate": "2025-08-14T18:33:34.726-07:00",
+        "hasAttachment": "true",
+        "documentStatus": {
+          "text": "superseded"
+        },
+        "documentType": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "History and physical note"
+            },
+            {
+              "system": "http://loinc.org",
+              "display": "Evaluation + Plan note"
+            }
+          ]
+        },
+        "category": [
+          {
+            "codings": [
+              {
+                "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+                "display": "Clinical Note"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "effectiveDate": "2025-08-14T18:33:34.726-07:00",
+        "hasAttachment": "true",
+        "documentStatus": {
+          "text": "current"
+        },
+        "documentType": {
+          "codings": [
+            {
+              "system": "http://loinc.org",
+              "display": "History and physical note"
+            },
+            {
+              "system": "http://loinc.org",
+              "display": "Evaluation + Plan note"
+            }
+          ]
+        },
+        "category": [
+          {
+            "codings": [
+              {
+                "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+                "display": "Clinical Note"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "encounters": [
+      {
+        "encounterDateTime": "2021-03-29T17:47:54-07:00",
+        "encounterIdentifier": "0e1be516-8e96-fa8e-3394-cc6ae4e06776",
+        "encounterLocation": "DR. HE'S PRIMARY CARE FOR ADULTS INC",
+        "encounterType": "Well child visit (procedure)",
+        "encounterStatus": "finished",
+        "encounterStartDatetime": "2021-03-29T17:47:54-07:00",
+        "encounterEndDatetime": "2021-03-29T18:02:54-07:00",
+        "encounterDiagnosis": {
+          "codings": [
+            {
+              "system": "http://snomed.info/sct",
+              "display": "Medication review due (situation)"
+            }
+          ],
+          "text": "Medication review due (situation)"
+        }
+      },
+      {
+        "encounterDateTime": "2023-04-10T17:47:54-07:00",
+        "encounterIdentifier": "0e1be516-8e96-fa8e-8758-8b045cd74e12",
+        "encounterLocation": "DR. HE'S PRIMARY CARE FOR ADULTS INC",
+        "encounterType": "General examination of patient (procedure)",
+        "encounterStatus": "finished",
+        "encounterStartDatetime": "2023-04-10T17:47:54-07:00",
+        "encounterEndDatetime": "2023-04-10T18:30:50-07:00",
+        "encounterDiagnosis": {
+          "codings": [
+            {
+              "system": "http://snomed.info/sct",
+              "display": "Housing unsatisfactory (finding)"
+            }
+          ],
+          "text": "Housing unsatisfactory (finding)"
+        }
+      },
+      {
+        "encounterDateTime": "2024-04-15T17:47:54-07:00",
+        "encounterIdentifier": "0e1be516-8e96-fa8e-7cda-8cd175de9cd6",
+        "encounterLocation": "DR. HE'S PRIMARY CARE FOR ADULTS INC",
+        "encounterType": "General examination of patient (procedure)",
+        "encounterStatus": "finished",
+        "encounterStartDatetime": "2024-04-15T17:47:54-07:00",
+        "encounterEndDatetime": "2024-04-15T18:29:51-07:00",
+        "encounterDiagnosis": {
+          "codings": [
+            {
+              "system": "http://snomed.info/sct",
+              "display": "Limited social contact (finding)"
+            }
+          ],
+          "text": "Limited social contact (finding)"
+        }
+      },
+      {
+        "encounterDateTime": "2025-05-14T19:47:54-07:00",
+        "encounterIdentifier": "0e1be516-8e96-fa8e-243f-b5b2f015de2b",
+        "encounterLocation": "MARLBOROUGH HOSPITAL CORP",
+        "encounterType": "Encounter for symptom (procedure)",
+        "encounterStatus": "finished",
+        "encounterStartDatetime": "2025-05-14T19:47:54-07:00",
+        "encounterEndDatetime": "2025-05-14T20:07:52-07:00",
+        "encounterDiagnosis": {
+          "codings": [
+            {
+              "system": "http://snomed.info/sct",
+              "display": "Acute bronchitis (disorder)"
+            }
+          ],
+          "text": "Acute bronchitis (disorder)"
+        },
+        "encounterReason": {
+          "codings": [
+            {
+              "system": "http://snomed.info/sct",
+              "display": "Acute bronchitis (disorder)"
+            }
+          ],
+          "text": "Acute bronchitis (disorder)"
+        }
+      },
+      {
+        "encounterDateTime": "2025-05-26T17:47:54-07:00",
+        "encounterIdentifier": "0e1be516-8e96-fa8e-557c-42997dc4f8e7",
+        "encounterLocation": "CIRCLE HEALTH URGENT CARE LLC",
+        "encounterType": "Urgent care clinic (environment)",
+        "encounterStatus": "finished",
+        "encounterStartDatetime": "2025-05-26T17:47:54-07:00",
+        "encounterEndDatetime": "2025-05-26T18:46:59-07:00",
+        "encounterDiagnosis": {
+          "codings": [
+            {
+              "system": "http://snomed.info/sct",
+              "display": "Full-time employment (finding)"
+            }
+          ],
+          "text": "Full-time employment (finding)"
+        }
+      },
+      {
+        "encounterDateTime": "2025-06-02T17:47:54-07:00",
+        "encounterIdentifier": "0e1be516-8e96-fa8e-5d04-1d754f1c195f",
+        "encounterLocation": "MARLBOROUGH HOSPITAL CORP",
+        "encounterType": "Encounter for check up (procedure)",
+        "encounterStatus": "finished",
+        "encounterStartDatetime": "2025-06-02T17:47:54-07:00",
+        "encounterEndDatetime": "2025-06-02T18:02:54-07:00",
+        "encounterDiagnosis": {
+          "codings": [
+            {
+              "system": "http://snomed.info/sct",
+              "display": "Medication review due (situation)"
+            }
+          ],
+          "text": "Medication review due (situation)"
+        }
+      },
+      {
+        "encounterDateTime": "2025-06-09T17:47:54-07:00",
+        "encounterIdentifier": "0e1be516-8e96-fa8e-aed5-c945967f2da8",
+        "encounterLocation": "MARLBOROUGH HOSPITAL CORP",
+        "encounterType": "Encounter for check up (procedure)",
+        "encounterStatus": "finished",
+        "encounterStartDatetime": "2025-06-09T17:47:54-07:00",
+        "encounterEndDatetime": "2025-06-09T21:03:16-07:00",
+        "encounterReason": {
+          "codings": [
+            {
+              "system": "http://snomed.info/sct",
+              "display": "Gingivitis (disorder)"
+            }
+          ],
+          "text": "Gingivitis (disorder)"
+        }
+      },
+      {
+        "encounterDateTime": "2025-08-14T18:33:34-07:00",
+        "encounterIdentifier": "0e1be516-8e96-fa8e-bdea-e158923ca887",
+        "encounterLocation": "RESERVOIR CENTER FOR HEALTH & REHABILITATION, THE",
+        "encounterType": "Emergency room admission (procedure)",
+        "encounterStatus": "finished",
+        "encounterStartDatetime": "2025-08-14T18:33:34-07:00",
+        "encounterEndDatetime": "2025-08-14T19:33:34-07:00",
+        "encounterDiagnosis": {
+          "codings": [
+            {
+              "system": "http://snomed.info/sct",
+              "display": "Injury of neck (disorder)"
+            }
+          ],
+          "text": "Injury of neck (disorder)"
+        },
+        "encounterReason": {
+          "codings": [
+            {
+              "system": "http://snomed.info/sct",
+              "display": "Injury of neck (disorder)"
+            }
+          ],
+          "text": "Injury of neck (disorder)"
+        }
+      },
+      {
+        "encounterDateTime": "2025-08-14T18:33:34-07:00",
+        "encounterIdentifier": "0e1be516-8e96-fa8e-1117-d98aa4be1f17",
+        "encounterLocation": "RESERVOIR CENTER FOR HEALTH & REHABILITATION, THE",
+        "encounterType": "Hospital admission (procedure)",
+        "encounterStatus": "finished",
+        "encounterStartDatetime": "2025-08-14T18:33:34-07:00",
+        "encounterEndDatetime": "2025-08-21T18:48:34-07:00",
+        "encounterReason": {
+          "codings": [
+            {
+              "system": "http://snomed.info/sct",
+              "display": "Patient transfer to skilled nursing facility (procedure)"
+            }
+          ],
+          "text": "Patient transfer to skilled nursing facility (procedure)"
+        }
+      }
+    ]
+  }
+}
